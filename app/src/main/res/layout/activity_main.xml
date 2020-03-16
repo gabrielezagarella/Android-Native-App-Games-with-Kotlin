@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcom to Game"
+            android:textSize="30dp"
+            android:textColor="@color/text"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select an option"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/text"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp">
+
+        <TextView
+            android:id="@+id/random"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Random Even and Odd"
+            android:drawableLeft="@drawable/random"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/text"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/imput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imput Even and Odd"
+            android:drawableLeft="@drawable/imput"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/text"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vsComputer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Even and Odd VS Computer"
+            android:drawableLeft="@drawable/vscomputer"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/text"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/morra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chinese morra"
+            android:drawableLeft="@drawable/morra"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/text"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/resulRandom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/text"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            tools:text="resulRandom" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© Copyright 2020"
+            android:textColor="@color/text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powered by Gabriele Zagarella, all rights reserved"
+            android:textColor="@color/text" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Android Native-App Games with Kotlin'

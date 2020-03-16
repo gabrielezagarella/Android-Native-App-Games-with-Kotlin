@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryOld">#008577</color>
+    <color name="colorPrimaryDarkOld">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#2a7ee6</color>
+    <color name="colorPrimaryDark">#76a5df</color>
+    <color name="colorOrange">#ffff8800</color>
+    <color name="zircon">#e0e6e4</color>
+    <color name="text">#042D5C</color>
+    <color name="background">#D5E1FF</color>
+</resources>

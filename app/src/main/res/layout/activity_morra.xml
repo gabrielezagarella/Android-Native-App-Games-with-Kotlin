@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:background="@color/background"
+    tools:context=".Morra">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Chinese morra"
+            android:textSize="30dp"
+            android:textColor="@color/text"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter paper, scissor or stone"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/resulMorra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="resul"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="23dp"
+            android:textColor="@color/text"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:layout_marginTop="80dp"/>
+
+        <EditText
+            android:id="@+id/userAnswerMorra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:layout_marginVertical="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/exitMorra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:width="150dp"
+            android:background="@drawable/button"
+            android:text="Exit"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submitMorra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="150dp"
+            android:background="@drawable/button"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:textColor="@color/text"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
